@@ -67,7 +67,6 @@ export async function POST(request: Request) {
             message: "Errror registering user"
         }, {
             status: 500
-        })
+        });
     }
-
 }
